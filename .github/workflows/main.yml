@@ -26,6 +26,8 @@ jobs:
       - name: Set up Python 3.4
       - uses: actions/setup-python@v2
       - name: Install dependencies
+        with:
+          python-version: 3.4
     run: |
         python3 -m unittest tests/test_main.py
     
