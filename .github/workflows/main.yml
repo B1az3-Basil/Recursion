@@ -28,6 +28,7 @@ jobs:
       - name: Install dependencies
         with:
           python-version: 3.4
+    -name: run the tests
     run: |
         python3 -m unittest tests/test_main.py
     
