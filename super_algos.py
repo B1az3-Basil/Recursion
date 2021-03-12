@@ -6,6 +6,7 @@ def find_min(element):
     """TODO: complete for Step 1"""
     ''' Finds the minimum number in the list it is given'''
     i = 0
+    print("hello")
 
     if len(element) == 0:
         return -1
